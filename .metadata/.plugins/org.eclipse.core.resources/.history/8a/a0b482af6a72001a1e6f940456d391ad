@@ -1,0 +1,11 @@
+Feature: login to Demoweb shop site
+  user shall be able to login to Demoweb shop site
+
+  
+  Scenario: successful login to Demoweb shop
+    Given user launched chrome browser
+    AND user launched the login page of demoweb shop site
+    WHEN user provides valid username and password 
+    AND user clicks on login button
+    THEN user shall be able to view the homepage
+  
